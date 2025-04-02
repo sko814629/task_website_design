@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+}
+.dark-color{
+    color: #070A44;
+
+}
+hr{
+    color: #fff;;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    background-color:  #070A44;
+    width: 100%;
+}
+.banner{
+    background-image: url('../img/image\ \(3\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:calc(100vh - 80px);
+    position: relative;
+}
+.navbar-nav li.nav-item {
+    display: inline-block;
+    padding: 15px;
+}
+.banner .banner-heading {
+    /* transform: translate(-50% , -50%); */
+    height: calc(100vh - 80px);
+    transform: translate(-50% , -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.banner-description{
+   padding: 50px;
+    background: #E2E7F2CC;
+    color: #070A44;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0;
+    background: transparent;
+    border-radius: 50% !important;
+    margin-right: 3px;
+    margin-left: 3px;
+    border: 2px solid #fff !important;
+    text-indent: -999px;
+    cursor: pointer;
+    /* background-color: #fff; */
+    /* background-clip: padding-box; */
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    color: #fff !important;
+    z-index: 9 !important;
+    text-indent: 0!important;
+}
+.carousel-indicators {
+
+    left: 50% !important;
+    
+}
+.financial-btn{
+
+}
+.contact{
+    background: #F4F9FF;
+    
+}
+.contact span input{
+    border: none;
+    outline: none;
+}
+.contact span{
+    padding: 10px 20px;
+    border:1px solid #070A44;
+    margin-top: 20px;
+    display: inline-block;
+}
+.financial-btn {
+    background: #070A441F;
+    padding: 16px 20px;
+    border: none;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.financial-expertise-heading h2 {
+    line-height: 1.5;
+}
+.footer{
+    background: #070A44;
+    ;
+}
+.footer-logo img{
+    width: 200px;
+}
+footer .socail-icon {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.socail-link ul li a{
+    display: inline-flex;
+    gap:5px;
+    margin-bottom: 20px;
+}
+.socail-link ul li a i{
+    color: #000;
+}
