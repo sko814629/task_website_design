@@ -163,3 +163,10 @@ footer .socail-icon {
 .socail-link ul li a i{
     color: #000;
 }
+
+@media screen and (max-width:768px) {
+    .carousel-indicators {
+    
+        opacity: 0;
+    }
+}
