@@ -79,7 +79,7 @@ header{
     border: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    opacity: .5;
+    /* opacity:  ; */
     transition: opacity .6s ease;
     color: #fff !important;
     z-index: 9 !important;
@@ -89,6 +89,11 @@ header{
 
     left: 50% !important;
     
+}
+.banner button.carousel-control-prev {
+    opacity: 0 !important;
+} .banner button.carousel-control-next {
+    opacity: 0 !important;
 }
 .financial-btn{
 
