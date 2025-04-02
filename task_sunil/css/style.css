@@ -100,12 +100,16 @@ header{
 .contact span input{
     border: none;
     outline: none;
+    width: 80%;
+    background: transparent;
 }
-.contact span{
+.contact span {
     padding: 10px 20px;
-    border:1px solid #070A44;
+    border: 1px solid #070A44;
     margin-top: 20px;
     display: inline-block;
+    max-width: 400px;
+    width: 100%;
 }
 .financial-btn {
     background: #070A441F;
@@ -113,6 +117,18 @@ header{
     border: none;
     width: 50%;
     margin-bottom: 20px;
+}
+.financial-img {
+    position: relative;
+}
+.financial-img-logo img{
+    max-width: 170px;
+    padding-right: 1rem;
+}
+.financial-img-logo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 .financial-expertise-heading h2 {
     line-height: 1.5;
